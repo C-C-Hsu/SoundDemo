@@ -16,28 +16,28 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fGZ-Er-bNG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2x-Aw-MxC">
                                 <state key="normal" title="播放聲音"/>
                                 <connections>
-                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0aD-fn-DKO"/>
+                                    <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CKd-NW-alj"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="fGZ-Er-bNG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="298" id="58m-cK-Zw8"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fGZ-Er-bNG" secondAttribute="bottom" constant="319" id="JRV-z1-50h"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fGZ-Er-bNG" secondAttribute="trailing" constant="141" id="Ref-cl-sG8"/>
-                            <constraint firstItem="fGZ-Er-bNG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="140" id="mZ8-fj-XXs"/>
+                            <constraint firstItem="Z2x-Aw-MxC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="205" id="8O9-hf-SNb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Z2x-Aw-MxC" secondAttribute="trailing" constant="113" id="GmL-9R-0CL"/>
+                            <constraint firstItem="Z2x-Aw-MxC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="113" id="PVR-Uz-j19"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Z2x-Aw-MxC" secondAttribute="bottom" constant="225" id="YJg-aD-tbl"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+            <point key="canvasLocation" x="135" y="138.38028169014083"/>
         </scene>
     </scenes>
 </document>
